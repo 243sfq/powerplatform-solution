@@ -1,0 +1,21 @@
+trigger:
+  - main
+
+pool:
+  vmImage: windows-latest
+
+steps:
+  - task: PowerShell@2
+    inputs:
+      targetType: inline
+      script: |
+        Write-Host "Installing Power Platform CLI..."
+        Invoke-WebRequest -Uri https://aka.ms/pac -OutFile pac.msi
+        Start-Process msiexec.exe -Wait -ArgumentList '/I pac.msi /quiet'
+        Write-Host "Installed Power Platform CLI"
+
+  - task: PowerShell@2
+    displayName: 'Pack Power Platform solution'
+    inputs:
+      targetType: filePath
+      filePath: 'pack.ps1'
