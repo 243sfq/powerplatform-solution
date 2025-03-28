@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>rt_petcanvasapp_2f94a</Name>
+  <AppVersion>2025-03-28T15:00:41Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.25033.14.0</CreatedByClientVersion>
+  <MinClientVersion>3.25033.14.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.25033.14","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20250328T114306Z-3.25033.14.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Pet Canvas App</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"79feef05-7261-42c9-b759-adcef16a530f":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1725/1.0.1725.4004/logicflows/icon.png","dataSources":["SummarisePetNotes"],"dependencies":[],"dependents":[],"parameterHints":{"workflowName":{"value":"95e7ddd2-b629-487a-9cf4-1561882257f7"},"workflowEntityId":{"value":"2cf710af-2d0b-f011-bae3-6045bd0f89d1"},"workflowDisplayName":{"value":"SummarisePetNotes"}},"parameterHintsV2":{"workflowName":{"value":"95e7ddd2-b629-487a-9cf4-1561882257f7"},"workflowEntityId":{"value":"2cf710af-2d0b-f011-bae3-6045bd0f89d1"},"workflowDisplayName":{"value":"SummarisePetNotes"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","isCustomApiSolutionAware":false},"a2648138-4066-4be8-ae5d-2f7a82aa28f1":{"id":"/providers/microsoft.powerapps/apis/shared_summariserapi-5fimport-5f00c062f0e97c46d5-5f5f8c25e23b6090fa","displayName":"SummariserAPI_import","iconUri":"https://defaulticons.powerapps.com/defaulticons/api-dedicated.png","dataSources":["SummariserAPI"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["summariseText"],"isCustomApiSolutionAware":false},"39dfbbe4-0e43-42aa-9c92-8973a1e27a57":{"id":"/providers/microsoft.powerapps/apis/shared_bitcoinapi-5f00c062f0e97c46d5-5f5f8c25e23b6090fa","displayName":"BitcoinAPI","iconUri":"https://defaulticons.powerapps.com/defaulticons/api-dedicated.png","dataSources":["BitcoinPriceAPI"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["getPrice"],"customApiLogicalName":"rt_bitcoinapi","isCustomApiSolutionAware":true}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Pets":{"entitySetName":"rt_pets","logicalName":"rt_pet"},"Notes":{"entitySetName":"annotations","logicalName":"annotation"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>0</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"rt_bitcoinapi","componenttype":372,"componenttypeplatformname":"connector"},{"dependencyid":"2cf710af-2d0b-f011-bae3-6045bd0f89d1","componenttype":29,"componenttypeplatformname":"Workflow"},{"logicalname":"rt_pet","componenttype":1},{"logicalname":"annotation","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/rt_petcanvasapp_2f94a_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/rt_petcanvasapp_2f94a_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/rt_petcanvasapp_2f94a_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

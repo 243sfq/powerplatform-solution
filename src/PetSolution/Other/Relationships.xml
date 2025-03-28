@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_rt_pet" />
+  <EntityRelationship Name="lk_rt_pet_createdby" />
+  <EntityRelationship Name="lk_rt_pet_modifiedby" />
+  <EntityRelationship Name="owner_rt_pet" />
+  <EntityRelationship Name="rt_pet_Owner_contact" />
+  <EntityRelationship Name="team_rt_pet" />
+  <EntityRelationship Name="user_rt_pet" />
+</EntityRelationships>

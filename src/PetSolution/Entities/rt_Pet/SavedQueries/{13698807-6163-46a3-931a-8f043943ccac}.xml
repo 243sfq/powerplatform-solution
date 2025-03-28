@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{13698807-6163-46a3-931a-8f043943ccac}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="rt_pet1" select="1" icon="1" preview="1">
+        <row name="result" id="rt_petid">
+          <cell name="rt_pet1" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="rt_breed" width="150" />
+          <cell name="rt_dateofbirth" width="150" />
+          <cell name="rt_notes" width="150" />
+          <cell name="rt_summary" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="rt_pet">
+          <attribute name="rt_petid" />
+          <attribute name="rt_pet1" />
+          <attribute name="createdon" />
+          <order attribute="rt_pet1" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="rt_breed" />
+          <attribute name="rt_dateofbirth" />
+          <attribute name="rt_notes" />
+          <attribute name="rt_summary" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Pets" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

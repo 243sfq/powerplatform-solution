@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Connector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <connectorid>e05335bf-3b2b-4791-b523-70727e8680b6</connectorid>
+  <description>Get current Bitcoin price in USD</description>
+  <displayname>BitcoinAPI</displayname>
+  <iconbrandcolor>#007ee5</iconbrandcolor>
+  <name>rt_bitcoinapi</name>
+  <connectortype>1</connectortype>
+  <openapidefinition>/Connector/rt_bitcoinapi_openapidefinition.json</openapidefinition>
+  <connectionparameters>/Connector/rt_bitcoinapi_connectionparameters.json</connectionparameters>
+  <policytemplateinstances>/Connector/rt_bitcoinapi_policytemplateinstances.json</policytemplateinstances>
+  <iconblob>/Connector/rt_bitcoinapi_iconblob.Png</iconblob>
+</Connector>
