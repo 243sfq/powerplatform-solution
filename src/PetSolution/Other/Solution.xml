@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.25031.202" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25031.202" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25032.00196">
+<ImportExportXml version="9.2.25031.202" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25031.202" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25031.00202">
   <SolutionManifest>
     <UniqueName>PetSummariserDev</UniqueName>
     <LocalizedNames>
@@ -85,7 +85,6 @@
       <RootComponent type="372" id="{e05335bf-3b2b-4791-b523-70727e8680b6}" schemaName="rt_bitcoinapi" behavior="0" />
       <RootComponent type="62" schemaName="rt_PetModelDrivenApp" behavior="0" />
       <RootComponent type="80" schemaName="rt_PetModelDrivenApp" behavior="0" />
-      <RootComponent type="9" schemaName="rt_frequency" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
